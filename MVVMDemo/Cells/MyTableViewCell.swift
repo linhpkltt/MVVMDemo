@@ -27,7 +27,7 @@ class MyTableViewCell: UITableViewCell {
         titleLable.text = animal.name
         if let image = UIImage(named: animal.image) {
             animalImageView.image = image
-            //animalImageView.setImageColor(color: UIColor.random())
+            animalImageView.setImageColor(color: UIColor.random())
         }
     }
     

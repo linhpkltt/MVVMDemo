@@ -17,6 +17,9 @@
 		18BE952026943843008926D4 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BE951E26943843008926D4 /* MyTableViewCell.xib */; };
 		18BE952926943E2F008926D4 /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE952826943E2F008926D4 /* AnimalViewModel.swift */; };
 		18BE952E26943E63008926D4 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE952D26943E63008926D4 /* Animal.swift */; };
+		18BE953226944D28008926D4 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE953126944D28008926D4 /* UIImageView+Extensions.swift */; };
+		18BE953726944D89008926D4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE953626944D89008926D4 /* UIColor+Extensions.swift */; };
+		18BE953A26944DBB008926D4 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE953926944DBB008926D4 /* CGFloat+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		18BE951E26943843008926D4 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		18BE952826943E2F008926D4 /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
 		18BE952D26943E63008926D4 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		18BE953126944D28008926D4 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		18BE953626944D89008926D4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		18BE953926944DBB008926D4 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		18BE94F5269401DF008926D4 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18BE953026944CE9008926D4 /* Extentions */,
 				18BE951126941041008926D4 /* Application */,
 				18BE951326941076008926D4 /* Cells */,
 				18BE952226943D39008926D4 /* Model */,
@@ -117,6 +124,16 @@
 				18BE952826943E2F008926D4 /* AnimalViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		18BE953026944CE9008926D4 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				18BE953126944D28008926D4 /* UIImageView+Extensions.swift */,
+				18BE953626944D89008926D4 /* UIColor+Extensions.swift */,
+				18BE953926944DBB008926D4 /* CGFloat+Extensions.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BE94F7269401DF008926D4 /* AppDelegate.swift in Sources */,
+				18BE953A26944DBB008926D4 /* CGFloat+Extensions.swift in Sources */,
 				18BE951F26943843008926D4 /* MyTableViewCell.swift in Sources */,
+				18BE953226944D28008926D4 /* UIImageView+Extensions.swift in Sources */,
+				18BE953726944D89008926D4 /* UIColor+Extensions.swift in Sources */,
 				18BE952926943E2F008926D4 /* AnimalViewModel.swift in Sources */,
 				18BE950C26940F4E008926D4 /* AnimalViewController.swift in Sources */,
 				18BE94F9269401DF008926D4 /* SceneDelegate.swift in Sources */,
