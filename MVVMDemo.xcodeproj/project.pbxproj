@@ -51,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188550D6269459400050F39E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18BE94FC269401DF008926D4 /* Main.storyboard */,
+				18BE9501269401E3008926D4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		18BE94EA269401DF008926D4 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +81,12 @@
 			children = (
 				18BE953026944CE9008926D4 /* Extentions */,
 				18BE951126941041008926D4 /* Application */,
-				18BE951326941076008926D4 /* Cells */,
+				18BE951326941076008926D4 /* Cell */,
 				18BE952226943D39008926D4 /* Model */,
 				18BE950F26941019008926D4 /* View */,
 				18BE952726943DE1008926D4 /* View Model */,
-				18BE94FC269401DF008926D4 /* Main.storyboard */,
+				188550D6269459400050F39E /* Storyboard */,
 				18BE94FF269401E3008926D4 /* Assets.xcassets */,
-				18BE9501269401E3008926D4 /* LaunchScreen.storyboard */,
 				18BE9504269401E3008926D4 /* Info.plist */,
 			);
 			path = MVVMDemo;
@@ -101,13 +109,13 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		18BE951326941076008926D4 /* Cells */ = {
+		18BE951326941076008926D4 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				18BE951D26943843008926D4 /* MyTableViewCell.swift */,
 				18BE951E26943843008926D4 /* MyTableViewCell.xib */,
 			);
-			path = Cells;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		18BE952226943D39008926D4 /* Model */ = {

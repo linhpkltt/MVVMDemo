@@ -41,7 +41,6 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="Lable" destination="XPp-X6-lvY" id="hgx-hj-QMJ"/>
                 <outlet property="animalImageView" destination="M6l-XL-0Cy" id="OB4-XH-pNZ"/>
                 <outlet property="titleLable" destination="XPp-X6-lvY" id="iSC-IV-Hyf"/>
             </connections>
